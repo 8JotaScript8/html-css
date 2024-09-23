@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso html</title>
+    <style>
+        body {
+            background-color: rgb(27, 27, 27);;
+        }
+        h1 {
+            font: 30pt arial;
+            color: aliceblue;
+            text-align: center;
+        }
+        .video, .link, .back {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0; /* Espaço vertical entre as divs (opcional) */
+}
+        .back {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .link a{
+            color: rgb(139, 138, 143);
+        }
+
+        p {
+            color: aliceblue;
+            font: arial;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Curso de HTML</h1>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok?si=71yi26ZUCaVOUqLm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="link">
+        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o" target="_blank">Veja curso completo</a> <br>
+    </div>
+
+    <div class="back">
+        <a href="../index.html"><img src="voltar.png" alt="back to homepag"></a>
+    </div>
+    <p>Voltar a pág.inicial</p>
+</body>
+</html>
