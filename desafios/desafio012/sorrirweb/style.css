@@ -16,6 +16,7 @@
     --font3: 'manga', cursive
 
 }
+
 *{
     margin: 0px;
     padding: 0px ;
@@ -49,23 +50,45 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
+    font-size: 2.5vw ;
+}
+
+section > p {
+    padding-bottom: 2em;
+    line-height: 3
 }
 
 section.normal{
     background-color: white;
+    
 }
 
 section.img{
     background-color: rgb(50, 50, 50);
     color:  white;
+    box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.53);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section.img > p{
-    background-color: rgba(0, 0, 0, 0.275);
+    background-color: rgba(0, 0, 0, 0.503);
     display: inline-block;
     padding: 5px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.552);
 }
 
+section#img01{
+    background-image: url(img/novo.jpg);
+    background-position: center center;
+}
+
+
+section#img02{
+    background-image: url(img/1371020.png);
+    background-position: center center; 
+}
 footer{
     background-color: black;
     color: white;
