@@ -1,2 +1,0 @@
-# sorria.web
- ua
